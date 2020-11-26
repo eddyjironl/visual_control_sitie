@@ -1,0 +1,219 @@
+/* en general  
+------------------------------------------------
+*/
+*{
+font-family:arial;
+padding:0px;
+margin:0px;
+}
+
+/* header
+------------------------------------------------
+*/
+.caja{
+	display:inline-block;
+	width:auto;
+	height:auto;
+	margin:0px 10px;
+}
+.barra_sencilla{
+	background:#132244;
+	box-shadow:black 0px 10px 10px;
+	color:white;
+	height:auto;
+	margin:10px 10px  20px  10px ;
+  	padding-bottom:15px;
+}
+
+.barra_sencilla h1 {
+	text-shadow:cyan 4px 4px 10px;
+}
+#logo{
+	margin-top:5px;
+}
+
+/* section 
+------------------------------------------------
+*/
+#detalles{
+	margin:auto;
+	height:auto;
+	padding:20px;
+}
+.subdetalles{
+	margin:20px auto;
+	max-width:1400px;
+}
+
+#detalles h1{
+	text-align:center;
+	color:blue;
+	text-shadow:black 4px 5px 10px;
+}
+ 
+/* section 
+------------------------------------------------
+*/
+
+footer{
+	margin:20px 10px  20px  10px ;
+  	background:#132244;
+	height:auto;
+	padding:10px;
+	color:white;
+	box-shadow:black 0px 10px 10px;
+	text-align:center;
+}
+
+
+/* Estilos de la pagina de productos
+------------------------------------------------
+*/
+.productos_v{
+	display:inline-block;
+	transition: 0.3s;
+	width:auto;
+	height:auto;
+	margin:20px;
+    border-radius:10px 10px 10px 10px;
+    box-shadow:black 4px 4px 10px;
+ }
+
+.productos{
+	width:250px;
+	margin:10px;
+}
+
+
+.productos_v label {
+  background-color:#132244;
+  box-shadow:black 4px 4px 10px;
+  color:white;
+  border-radius:10px 10px 10px 10px;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  font-size: 14px;
+  margin:5px;
+  border-right:solid 2px blue;	
+}
+
+.productos_v label:hover {
+  background-color:#242485;
+  box-shadow:#E91E63 5px 5px 9px;
+  border-right:solid 2px aqua;
+
+}
+/*
+botones barra de navegacion
+----------------------------------------------------------------------------
+*/
+#barra{
+	display:inline-block;
+	width:auto;
+	height:auto;
+}
+.btlinks {
+  background-color:#132244;
+  box-shadow:black 4px 4px 10px;
+  color:white;
+  border-radius:10px 10px 10px 10px;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  font-size: 14px;
+  margin:5px;
+  border-right:solid 2px blue;
+}
+/* Change background color of buttons on hover */
+.btlinks:hover {
+  background-color:#242485;
+  box-shadow:#E91E63 5px 5px 9px;
+  border-right:solid 2px aqua;
+}
+/* Create an active/current tablink class */
+/*.btlinks.active {*/
+.btlinksactive {
+  color:white;
+  border-radius:10px 10px 10px 10px;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  font-size: 12px;
+  margin:5px;
+  background-color:#242485;
+  box-shadow:blue 5px 5px 9px;
+  border-right:solid 2px aqua;
+}
+.labelnormal{
+	padding:2px;
+	margin-bottom:1px;
+ 	width:auto;
+ 	display: inline-block;	
+	min-width:150px;  
+}
+.form{
+	margin:100px auto;
+	width:300;
+}
+#titulo{
+	text-shadow:black 5px 5px 10px;
+	color:blue;
+}
+
+#cemail, #cfullname{
+	width:250px;
+}
+
+/*
+	ventana desplegable de informacion.
+*/
+#ventana{
+	padding:15px;
+	//color:white;
+	background-color:rgba(202,202,202,1);
+	//background:gray;
+	width:auto;
+	height:auto;
+	border:solid 1px black;
+	display:inline-block;
+	float:left;
+	position:absolute;
+    margin: 1% auto;
+	box-shadow:black 4px 4px 10px;
+}
+
+#info_logo{
+	display:inline-block;
+	float:left;
+	width:100%;
+	margin:auto 2px;
+	max-width:900px;
+}
+#presentacion_tecnica{
+	display:inline-block;
+	width:40%;
+	margin:auto 2px;
+	max-width:300px;
+}
+#face{
+	display:inline-block;
+	width:40%;
+	margin:auto 2px;
+	max-width:140px;
+}
+#info_tecnica{
+	display:inline-block;
+	width:50%;
+	margin:auto 2px;
+	max-width:100px;
+}
